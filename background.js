@@ -1,10 +1,10 @@
 //var analyticsRequest = 0;
 
 var data = [
-	{"urlPattern":"google-analytics", "provider": "Google Analytics", "events": [{"eventPattern": "analytics.js", "event": "Initialisation"},{"eventPattern": "t=pageview", "event": "Page view"},{"eventPattern": "ec=ElementClick", "event": "Click"},{"eventPattern": "t=timing", "event": "Timing"},{"eventPattern": "ec=performance", "event": "Timing"}]},
+	{"urlPattern":"google-analytics", "provider": "Google Analytics", "events": [{"eventPattern": "analytics.js", "event": "Initialisation"},{"eventPattern": "ga.js", "event": "Initialisation"},{"eventPattern": "t=pageview", "event": "Page view"},{"eventPattern": "t=event", "event": "Event"},{"eventPattern": "t=timing", "event": "Timing"},{"eventPattern": "ec=ElementClick", "event": "Click"},{"eventPattern": "ec=performance", "event": "Timing"}]},
 	{"urlPattern":"analytics.yahoo", "provider": "Yahoo Analytics"},
 	{"urlPattern":"googletagmanager", "provider": "Google Tag Manager", "events": [{"eventPattern": "gtm.js", "event": "Initialisation"}]},
-	{"urlPattern":"facebook.com/tr", "provider": "Facebook", "events": [{"eventPattern": "ev=PixelInitialized", "event": "Initialisation"},{"eventPattern": "ev=ViewContent", "event": "Content View"}]},
+	{"urlPattern":"facebook.com/tr", "provider": "Facebook", "events": [{"eventPattern": "ev=PixelInitialized", "event": "Initialisation"},{"eventPattern": "ev=PageView", "event": "Page view"},{"eventPattern": "ev=ViewContent", "event": "Content view"}]},
 	{"urlPattern":"doubleclick.net", "provider": "DoubleClick", "events": [{"eventPattern": "dc.js", "event": "Initialisation"}]}
 	];
 
